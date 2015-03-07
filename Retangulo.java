@@ -7,4 +7,8 @@ class Retangulo{
     return this.x * this.y;
   }
 
+  public double perimetro(){
+    return (this.x + this.y) * 2;
+  }
+
 }
